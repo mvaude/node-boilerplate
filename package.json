@@ -1,0 +1,37 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "A TDD Boilerplate for nodejs including ES6 and ES7 features",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node_modules/.bin/gulp",
+    "test": "node ./node_modules/mocha/bin/mocha test/mocha/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvaude/node-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "babel",
+    "mocha",
+    "gulp",
+    "github",
+    "travis",
+    "boilerplate"
+  ],
+  "author": "mvaude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvaude/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mvaude/node-boilerplate#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.3"
+  }
+}
