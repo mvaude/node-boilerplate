@@ -4,8 +4,8 @@
   "description": "A TDD Boilerplate for nodejs including ES6 and ES7 features",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node_modules/.bin/gulp",
-    "test": "node ./node_modules/mocha/bin/mocha test/mocha/main.js"
+    "prepublish": "./node_modules/.bin/gulp",
+    "test": "./node_modules/mocha/bin/mocha test/mocha/main.js"
   },
   "repository": {
     "type": "git",
@@ -29,11 +29,8 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
-<<<<<<< HEAD
     "gulp-plumber": "^1.0.1",
     "gulp-sourcemaps": "^1.5.2",
-=======
->>>>>>> 3cfb4da84a394296e650eceafaa1a40d38ab2102
     "mocha": "^2.2.5"
   },
   "dependencies": {
