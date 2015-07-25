@@ -29,8 +29,11 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
+<<<<<<< HEAD
     "gulp-plumber": "^1.0.1",
     "gulp-sourcemaps": "^1.5.2",
+=======
+>>>>>>> 3cfb4da84a394296e650eceafaa1a40d38ab2102
     "mocha": "^2.2.5"
   },
   "dependencies": {
